@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="/polls/css.css" rel="stylesheet">
+<script src="/nisc/static/js/jquery-1.11.3.min.js"></script>
+<script src="/nisc/static/js/bootstrap.min.js"></script>
+<title>方德信息服务中心</title>
+<style type="text/css">
+#menu, #menu li {
+list-style:none; 
+padding:0; 
+margin:0; 
+}
+
+#menu ul li a{color:#333; text-decoration:none;}
+#menu ul li a{display:block; height:35px; color:#333; text-decoration:none; float:left; padding:0 10px;}
+#menu ul li a:hover{color:#fff; text-decoration:underline; background:#000;}
+
+#menu{
+	width:960px;
+	height:35px;
+	background:#CCC;
+	margin:0 auto;/*水平居中*/
+	margin-top:30px;/*顶部30px*/
+}
+#menu ul{
+	width:960px;
+	height:35px;
+}
+#menu ul li{
+	height:35px;
+	float:left;
+	list-style:none;
+	line-height:35px;
+	text-align:center;
+	padding:0 10px;
+}
+#menu ul li a{display:block; height:35px; color:#333; text-decoration:none; float:left; padding:0 10px;}
+#menu ul li a:hover{color:#fff; text-decoration:underline; background:#000;}
+
+ 
+#menu ul li {display:inline;}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/index.html">方德信息服务中心</a>
+		</div>
+	</div>
+</nav>
+
+     <div id="menu">
+        <ul>
+            <li><a href="/polls/">Home</a></li>
+            <li><a href="#">Blog</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">终端状态</a></li>
+			<li><a href="#">信息推送</a></li>
+			<li><a href="#">历史消息</a></li>
+        </ul>
+    </div>
+</body>
+</html>

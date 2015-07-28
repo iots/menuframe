@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<FCK:meta http-equiv="Content-Type" content="text/html; charset=gb2312"  />
+<title>方德信息服务中心</title>
+<style type="text/css">
+<!--
+#navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color: #036;
+color: White;
+float: left;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+background-color: #036;
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+#navcontainer ul li a:hover
+{
+background-color: #369;
+color: #fff;
+}
+-->
+</style>
+</head>
+<body>
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="#//" _fcksavedurl="#//" id="current">网站首页</a></li>
+<li><a href="#" _fcksavedurl="#">网页特效</a></li>
+<li><a href="#" _fcksavedurl="#">广告代码</a></li>
+<li><a href="#" _fcksavedurl="#">网页特效</a></li>
+<li><a href="#" _fcksavedurl="#">广告代码</a></li>
+<li><a href="#" _fcksavedurl="#">首页</a></li>
+<li><a href="#" _fcksavedurl="#">终端状态</a></li>
+<li><a href="#" _fcksavedurl="#">信息推送</a></li>
+<li><a href="#" _fcksavedurl="#">历史消息</a></li>
+
+</ul>
+</div>
+</body>
+</html></iframe></body></html>
+

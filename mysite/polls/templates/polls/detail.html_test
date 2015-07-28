@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>css组件 - 快切</title>
+<meta name="keywords" content="快切,中文css框架,css框架,开源css框架,css框架下载"/>
+<meta name="description" content="快切是一个开源中文 (X)HTML/CSS 框架 ,它的目的是减少你的css开发时间。它提供一个可靠的css基础去创建你的项目,能够用于网站的快速设计,通过重设和重建浏览器标准，可以让每个网站防 止枯燥的跨浏览器兼容性测试。"/>
+<meta name="author" content="developer@qietu.com">
+<link rel="stylesheet" href="assets/css/quick.css">
+<link rel="stylesheet" href="assets/css/quick-rwd.css">
+<link rel="stylesheet" href="css/prettify.css" >
+<link rel="stylesheet" href="css/docs.css">
+
+<script src="assets/js/jquery-1.7.1.min.js"></script> 
+<script src="assets/js/quick.js"></script> 
+<script src="js/prettify.js"></script>
+<script src="js/docs.js"></script>
+
+
+<style type="text/css">
+#menu { 
+font:12px verdana, arial, sans-serif; 
+}
+#menu, #menu li {
+list-style:none; 
+padding:0; 
+margin:0; 
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="naver">
+	<div class="wrapper">
+    	<div class="brand">
+        	<a href="./index.html">快切</a>        </div>
+    
+    	<div class="module">
+        	<ul>
+                <li>
+                    <a href="started.html">入门</a>                </li>
+                <li>
+                    <a href="grid.html" class="selected">12列栅格</a>                </li>
+                <li>
+                    <a href="base.html">基础css</a>                </li>
+                <li class="selected">
+                    <a href="widgets.html">组件</a>                </li>
+                <li>
+                    <a href="javascript.html">javascript插件</a>                </li>
+                <li>
+                    <a href="icon.html">图标</a>                </li>
+            </ul>
+        </div>
+        <div class="sub">
+       		<ul>
+            	<li><a href="http://kuai.qietu.com">前往官网</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="heading">
+  <div class="wrapper">
+  	<h1>组件</h1>
+    <h2>定义了一些常用的组件以及样式，能够快速构建页头，导航，选项卡，页脚，子菜单，分页等</h2>
+  </div>
+</div>
+
+    <div class="naver">
+    <div class="wrapper">
+    <div class="logo">
+    <a href="./"> 快切</a>
+    </div>
+    <div class="module">
+    <ul>
+    <li>
+    <strong><a href="#" class="selected">菜单1</a></strong>
+    </li>
+    <li>
+    <strong><a href="###">菜单2</a></strong>
+    <div class="droper">
+    <a href="#">子菜单1</a>
+    <a href="#" target="_blank">子菜单2</a>
+    <a href="#" target="_blank">子菜单3</a>
+    <a href="#" target="_blank">子菜单4</a>
+    <a href="#" target="_blank">子菜单5</a>
+    </div>
+    </li>
+    <li>
+    <strong><a href="###">菜单3</a></strong>
+    <div class="droper">
+    <a href="#">子菜单1</a>
+    <a href="#" target="_blank">子菜单2</a>
+    <a href="#" target="_blank">子菜单3</a>
+    <a href="#" target="_blank">子菜单4</a>
+    <a href="#" target="_blank">子菜单5</a>
+    </div>
+    </li>
+    </ul>
+    </div>
+    <div class="sub">
+    <a href="#">例子</a>
+    <a href="#">关于</a>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+<div class="heading">
+<h1>这是一个heading</h1>
+<h2>这是一个heading的描述</h2>
+</div>
+</body>
+</html>
